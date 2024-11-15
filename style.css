@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Suez+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    /* border: 1px solid black; */
+
+}
+.navleft{
+    width: 10%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: red;
+    margin-left: 100px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navleft h4{
+    color: white;
+      font-family: "Dancing Script", cursive;
+      font-size: 30px;
+      margin-left: 10px;
+}
+.navright{
+    width: 35%;
+    height: 50px;
+    border-radius: 8px;
+    background-color:white;
+    position: absolute;
+    right: 150px;
+    top: 0px;
+    bottom: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* .navright:hover{
+    background-color: red;
+} */
+.navright a{
+    margin-left: 50px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    line-height: 40px;
+    color: black;
+}
+/* .navright a:hover{
+    color: white;
+    background-color: red;
+} */
+.main{
+    background-image: url("./assets/background.jpg");
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.spell h1{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "Suez One", serif;
+    color: #272443;
+
+}
+.spell h4{
+    color: #272443;
+    font-size: 25px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-weight: 400;
+}
+.apple{
+    background-image: url("./assets/apple.png");
+    position: absolute;
+    top: 420px;
+    left: 100px;
+    width: 80%;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.google{
+    background-image: url("./assets/Google.png");
+    position: absolute;
+    top: 420px;
+    left: 300px;
+    width: 80%;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.hero{
+    width:90%;
+    height: 450px;
+    /* background-color: red; */
+    position: relative;
+    top: 30px;
+    left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec1{
+    width: 22%;
+    height: 450px;
+    background-image: url("./assets/kipon.jpg");
+    -webkit-box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+    -moz-box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+    box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+border-radius: 30px;
+
+}
+#boom{
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#free{
+    color: white;
+   position: absolute;
+   top: 380px;
+   left: 30px;
+}
+.sec2{
+    width: 22%;
+    height: 450px;
+    background-image: url("./assets/robort.jpg");
+    -webkit-box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+    -moz-box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+    box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+border-radius: 30px;
+position: relative;
+
+}
+.sec3{
+    width: 22%;
+    height: 450px;
+    background-image: url("./assets/treasure\ box.jpg");
+    -webkit-box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+    -moz-box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+    box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+border-radius: 30px;
+position: relative;
+
+}
+.sec4{
+    width: 22%;
+    height: 450px;
+    background-color: yellow;
+    -webkit-box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+    -moz-box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+    box-shadow: inset -9px -88px 235px 2px rgba(233,143,74,0.97);
+border-radius: 30px;
+position: relative;
+
+}
+#boom2{
+    color:#642b3a;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#free2{
+    color: white;
+   position: absolute;
+   top: 280px;
+   left: 110px;
+   font-size: 50px;
+}
+.normal h4{
+   width: 30%;
+    /* background-color: aqua; */
+    position: relative;
+    top: 100px;
+    left: 680px;
+    font-size: 20px;
+
+}
+#kd{
+   font-size: 50px;
+   font-family: "Suez One", serif;
+   font-weight: 500;
+   position:relative;
+   top: 110px;
+   left: 500px;
+   width: 60%;
+
+}
+#pudding{
+    position: relative;
+    top: 130px;
+    left: 470px;
+    /* font-size: 20px; */
+    word-spacing: 2px;
+    line-height: 25px;
+    width: 60%;
+}
+button{
+    width: 130px;
+    height: 60px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 160px;
+    left: 700px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+.knock{
+    background-image: url("./assets/man\ woman.jpg");
+    width: 50%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 250px;
+    left: 400px;
+    border-radius: 20px;
+}
+.knock:hover{
+    -webkit-box-shadow: inset 10px 10px 247px 31px rgba(100,43,58,1);
+-moz-box-shadow: inset 10px 10px 247px 31px rgba(100,43,58,1);
+box-shadow: inset 10px 10px 247px 31px rgba(100,43,58,1);
+
+}
+.k img{
+   width:200px;
+   position: absolute;
+   top: 230px;
+  left: -50px;
+}
+.mark h1{
+    width: 50%;
+    font-size: 50px;
+    position: relative;
+    top: 400px;
+    left: 670px;
+}
+#mac{
+    position: relative;
+    top: 430px;
+    left: 500px;
+    width: 50%;
+}
+.book{
+    width: 100%;
+    height: 1000px;
+    background-image: url("./assets/phone.png");
+    position: relative;
+    top: 460px;
+}
+.bati{
+    width: 70%;
+    height: 340px;
+    /* background-color: aqua; */
+    margin-left: 230px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.take{
+    width: 30%;
+    height: 340px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+#put{
+    width: 20%;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+#kit{
+    width: 100%;
+    margin-left: 120px;
+     margin-top: -33px;
+     font-size: 20px;
+}
+#neck{
+   margin-left: 120px; 
+}
+#pl{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+#cargo{
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.down{
+    width: 21%;
+    height: 340px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    left: 230px;
+    
+}
+.mag img{
+    width: 80%;
+    height: 300px;
+    position: relative;
+    left: 750px;
+    bottom: 270px;
+}
+.bottle{
+    width: 100%;
+    height: 1400px;
+    background-color: aqua;
+    margin-top: 300px;
+
+}
+.mentos{
+    width: 100%;
+    height: 700px;
+    background-image: url("./assets/back\ 2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mentos h4{
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    font-size: 20px;
+    width: 50%;
+}
+.mentos h1{
+     color: white;
+     font-size: 50px;
+     position: relative;
+     top: 100px;
+     left: 50px;
+     font-family: "Suez One", serif;
+     font-weight: 500;
+     width: 50%;
+    
+}
+#ok{
+    width: 10%;
+    height: 50px;
+    background-color: #FCFF72;
+    color: black;
+    position: relative;
+    left: 70px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+#ok:hover{
+    background-color: white;
+}
+.pod img{
+    position: relative;
+    left: 810px;
+    bottom: 5px;
+    width: 40%;
+    height: 500px;
+}
+.method{
+    width: 100%;
+    height: 700px;
+    background-image: url("./assets/back\ 3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pal{
+    width: 30%;
+    height: 300px;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    top: 250px;
+    left: 550px;
+}
+.pal h4{
+    width: 100%;
+    color: white;
+    font-family: "Suez One", serif;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 20px;
+}
+.moki{
+    position: relative;
+    left: 600px;
+    top: 40px;
+    width: 50%;
+}
+.moki input{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.moki label{
+    color: white;
+    font-size: 20px;
+}
+#mat{
+    width: 10%;
+    height: 50px;
+    background-color:#FCFF72 ;
+    position: relative;
+    right:500px;
+    top: 90px;
+    color: black;
+}
+#mat:hover{
+    background-color:white;
+    border: 1px solid black;
+}
+.foot{
+    width: 100%;
+    height: 600px;
+    background-color: #F6F4F0;
+    display: flex;
+}
+.sec11{
+    width: 25%;
+    height: 600px;
+    /* background-color: aqua; */
+}
+.sec11 h3{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+.sec11 p{
+    position: relative;
+    top: 130px;
+    left: 200px;
+    font-weight: 300;
+    color: gray;
+}
+.sec12{
+    width: 25%;
+    height: 600px;
+    /* background-color: rgb(63, 210, 23); */
+}
+.sec12 h3{
+    position: relative;
+    top: 100px;
+    left: 140px;
+}
+.sec12 p{
+    position: relative;
+    top: 130px;
+    left: 140px;
+    font-weight: 300;
+    color: gray;
+}
+.sec13{
+    width: 25%;
+    height: 600px;
+    /* background-color: rgb(145, 24, 226); */
+}
+.sec13 h3{
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+.sec13 p{
+    position: relative;
+    top: 130px;
+    left: 60px;
+    font-weight: 300;
+    color: gray;
+}
+.sec14{
+    width: 25%;
+    height: 600px;
+    /* background-color: rgb(108, 123, 123); */
+}
+.sec14 h3{
+    position: relative;
+    top: 100px;
+    left: 60px;
+    width: 50%;
+}
+#cargo1{
+    width: 40%;
+    margin-top: 150px;
+    
+}
+
+
+
